@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index1.css">
+    <script defer src="./index1.js"></script>
+</head>
+<body>
+
+
+    <div class="wrapper">
+        <div class="form">
+            <div class="title">
+                Login To Coding Market
+            </div>
+            <form method="post" action="/index1.html" onsubmit="return validation();">
+                <div class="input_wrap">
+                    <label for="input_text">Email or Username</label>
+                    <div class="input_field">
+                        <input type="text" name="name" class="input" id="input_text">
+                    </div>
+                </div>
+                <div class="input_wrap">
+                    <label for="input_password">Password</label>
+                    <div class="input_field">
+                        <input type="password" name="password" class="input" id="input_password">
+                    </div>
+                </div>
+                <div class="input_wrap">
+                    <span class="error_msg">Incorrect username or password. Please try again</span>
+                    <input class="sub" type="submit">
+                    <h3>Dont have a account ?</h3>
+                   <a href="/index.html">Create a new account</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
